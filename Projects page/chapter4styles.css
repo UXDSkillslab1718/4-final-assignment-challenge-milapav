@@ -66,9 +66,17 @@ main {
 .fproject{
   background: white;
   }
-
-
+.dc{
+  background: #FFE1AD;
 }
+
+.rd{
+  background: white;
+}
+.iux{
+  background: white;
+}
+
 h1{
   color:#6B0132
 }
@@ -183,8 +191,10 @@ p + h3{
   background-size: cover;
 }
 
+
 /* Media Q
 ------------------------------------*/
+
 @media(min-width: 900px){
   .col-narrow{
     width:30%;
@@ -202,5 +212,18 @@ p + h3{
     .profile-img{
       width:200px;
     }
+  }
+}
+
+
+@media(min-width: 900px){
+  .col-narrow2{
+    width:45%;
+    float:left;
+  }
+  .col-wide2{
+    width:55%;
+    float:left;
+    padding-left: 40px;
   }
 }
