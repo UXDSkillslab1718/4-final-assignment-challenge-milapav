@@ -93,6 +93,12 @@ header, footer{
 footer{
   text-align: center;
 }
+
+.link1{
+  padding-right: 30px;
+}
+
+
 .contact-info{
   padding: 10px;
   display: inline-block;
